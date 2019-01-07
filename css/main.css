@@ -1,15 +1,33 @@
 html {
-  font-family: "Georgia", sans-serif;
+  font-family: Georgia, sans-serif;
 }
 
 header {
-  background-image: url("../images/earth-horizon.jpg");
   background-position: center;
   background-size: auto;
-  max-height: 500px;
   color: #fff;
 }
 
 .content-bkgd {
   background-color: #495562;
+}
+
+.btn-ghost {
+  color: #fff;
+  border-color: #97a49b;
+}
+
+.btn-ghost:hover {
+  color: #495562;
+  border-color: #fff;
+}
+
+@media only screen and (min-width: 60em) {
+  .banner {
+    max-height: 500px;
+  }
+
+  button {
+    text-align: center;
+  }
 }
