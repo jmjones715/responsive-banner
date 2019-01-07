@@ -1,0 +1,15 @@
+html {
+  font-family: "Georgia", serif;
+}
+
+header {
+  background-image: url("../images/earth-horizon.jpg");
+  background-position: center;
+  background-size: auto;
+  max-height: 500px;
+  color: #fff;
+}
+
+.content-bkgd {
+  background-color: #495562;
+}
